@@ -12,7 +12,7 @@ process.stdin.on('readable', function() {
         	case 'language':
         	process.stdout.write(process.env.lang);
         	break;
-        	case: 'version':
+        	case 'version':
         	process.stdout.write(process.version);
 			break;
         	default:
